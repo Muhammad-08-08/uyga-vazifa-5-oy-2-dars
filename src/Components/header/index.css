@@ -1,0 +1,54 @@
+.header {
+    width: 1440px;
+    background-color: #163A24;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    background-color: #198C36;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.hero-text h1 {
+    width: 70%;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    width: 78%;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
